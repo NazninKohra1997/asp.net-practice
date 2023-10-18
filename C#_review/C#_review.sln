@@ -11,27 +11,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection_and_class", "Ref
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prac-01", "prac-01\prac-01.csproj", "{898C9403-D603-4913-8791-2A969F481834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Normal_code_for_Bubble_sort", "Normal_code_for_Bubble_sort\Normal_code_for_Bubble_sort.csproj", "{666BDC99-D2C3-4619-9B05-6B8CD05CC1C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Normal_code_for_Bubble_sort", "Normal_code_for_Bubble_sort\Normal_code_for_Bubble_sort.csproj", "{666BDC99-D2C3-4619-9B05-6B8CD05CC1C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuubleSort_and_Delegate", "BuubleSort_and_Delegate\BuubleSort_and_Delegate.csproj", "{513BAB18-2FDE-4A64-B9F6-4B9F7C25FCE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuubleSort_and_Delegate", "BuubleSort_and_Delegate\BuubleSort_and_Delegate.csproj", "{513BAB18-2FDE-4A64-B9F6-4B9F7C25FCE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortWithGenerics_Delegates", "BubbleSortWithGenerics_Delegates\BubbleSortWithGenerics_Delegates.csproj", "{457BA1F5-DDBF-4FB4-88FE-7DFF757B3435}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSortWithGenerics_Delegates", "BubbleSortWithGenerics_Delegates\BubbleSortWithGenerics_Delegates.csproj", "{457BA1F5-DDBF-4FB4-88FE-7DFF757B3435}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prac_Delegate", "Prac_Delegate\Prac_Delegate.csproj", "{887CD81A-DE2C-4256-B8FB-57B1628C8316}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prac_Delegate", "Prac_Delegate\Prac_Delegate.csproj", "{887CD81A-DE2C-4256-B8FB-57B1628C8316}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Func_and_BubbleSort", "Func_and_BubbleSort\Func_and_BubbleSort.csproj", "{6ADCC69D-C6D0-4406-BAC1-B9A4D34DED7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Func_and_BubbleSort", "Func_and_BubbleSort\Func_and_BubbleSort.csproj", "{6ADCC69D-C6D0-4406-BAC1-B9A4D34DED7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Action", "Action\Action.csproj", "{0EA1CA17-3F70-4D9A-A306-314F2318D841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Action", "Action\Action.csproj", "{0EA1CA17-3F70-4D9A-A306-314F2318D841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda_Method", "Lambda_Method\Lambda_Method.csproj", "{470F6B79-C796-420E-A0BF-E0D5EFACC9A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda_Method", "Lambda_Method\Lambda_Method.csproj", "{470F6B79-C796-420E-A0BF-E0D5EFACC9A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{F538A955-BBA8-4B06-BFDE-FC635BD4DBF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event", "Event\Event.csproj", "{F538A955-BBA8-4B06-BFDE-FC635BD4DBF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_02", "Event_02\Event_02.csproj", "{AD6EE161-38C9-4A1A-B77C-A68EDB4F4710}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_02", "Event_02\Event_02.csproj", "{AD6EE161-38C9-4A1A-B77C-A68EDB4F4710}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection_Class_List", "Reflection_Class_List\Reflection_Class_List.csproj", "{C4450B4F-0AA8-4DD0-A2B5-D6235B20B39B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection_Class_List", "Reflection_Class_List\Reflection_Class_List.csproj", "{C4450B4F-0AA8-4DD0-A2B5-D6235B20B39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection_class_list-02", "Reflection_class_list-02\Reflection_class_list-02.csproj", "{11EAC5F3-5600-4ECF-B5BA-3A792D99A31D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection_class_list-02", "Reflection_class_list-02\Reflection_class_list-02.csproj", "{11EAC5F3-5600-4ECF-B5BA-3A792D99A31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-01_nestingObject", "Assignment-01_nestingObject\Assignment-01_nestingObject.csproj", "{37CD222E-C065-42E1-B52F-4FEA0175F0F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{11EAC5F3-5600-4ECF-B5BA-3A792D99A31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11EAC5F3-5600-4ECF-B5BA-3A792D99A31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11EAC5F3-5600-4ECF-B5BA-3A792D99A31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CD222E-C065-42E1-B52F-4FEA0175F0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CD222E-C065-42E1-B52F-4FEA0175F0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CD222E-C065-42E1-B52F-4FEA0175F0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CD222E-C065-42E1-B52F-4FEA0175F0F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
