@@ -42,6 +42,10 @@ namespace Assignment_01_nestingObject
             {
 
                 PropertyInfo destProp = Array.Find(destinationProperties, m => m.Name == sourceProperty.Name);
+                if (sourceProperty.Name == "Length")
+                {
+                    continue;
+                }
 
                 if (destProp != null)
                 {
@@ -60,16 +64,19 @@ namespace Assignment_01_nestingObject
                                 if ((SProperty.GetValue(source)).Equals(DProperty.GetValue(destination)))
                                 {
 
-                                    
-                                  //  Console.WriteLine(SProperty.Name);
+
+                                    //  Console.WriteLine(SProperty.Name);
                                     //Console.WriteLine(DProperty.Name);
 
                                     //Console.WriteLine(value.ToString());
-                                   
+
 
                                     //here
+                                    Console.WriteLine($"The Copy value beteween {SProperty.DeclaringType.FullName} and {DProperty.DeclaringType.FullName} are:");
                                     Console.WriteLine($"Property Name: {SProperty.Name}");
                                     Console.WriteLine($"Source Value: {SProperty.GetValue(source)}");
+
+                                   
                                     Console.WriteLine($"Destination Value: {DProperty.GetValue(destination)}");
                                    Console.WriteLine();
 
@@ -83,7 +90,7 @@ namespace Assignment_01_nestingObject
                     }
 
                     //here1
-                   else if ( (SProperty.PropertyType.IsClass ) && (SProperty.PropertyType.GetInterfaces().Contains(typeof(IEnumerable))) && (SProperty.PropertyType != typeof(string)) && (SProperty.PropertyType != typeof(int)) )
+                   else if ( (SProperty.PropertyType.IsClass ) && (SProperty.PropertyType.GetInterfaces().Contains(typeof(IEnumerable))) && (SProperty.PropertyType != typeof(string))  )
                     {
                         //object destValue = Activator.CreateInstance(DProperty.PropertyType).ToString();
                        // Console.WriteLine("he");
@@ -151,10 +158,12 @@ namespace Assignment_01_nestingObject
                                     //here
                                     if ((sourceList[i].Equals(destinationList[i])) )
                                     {
-                                      // if (SProperty.Name != 0)
+
                                         //{
 
-                                           Console.WriteLine($"Property Name: {SProperty.Name}");
+
+                                        Console.WriteLine($"The Copy value beteween {SProperty.DeclaringType.FullName} and {DProperty.DeclaringType.FullName} are:");
+                                        Console.WriteLine($"Property Name:  {SProperty.Name}");
 
                                        
 
