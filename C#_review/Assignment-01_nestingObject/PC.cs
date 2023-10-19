@@ -8,13 +8,15 @@ namespace Assignment_01_nestingObject
 {
     public class PC
     {
+        public int Id { get; private set; }
         public string Name { get; private set; }
         public List<Motherboard> Motherboards { get; private set; }
 
-        public PC(string name, List<Motherboard> motherboards)
+        public PC(int id, string name, List<Motherboard> motherboards)
         {
             Name = name;
             Motherboards = motherboards;
+            Id = id;
         }
     }
 }

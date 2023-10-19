@@ -16,10 +16,13 @@ namespace Assignment_01_nestingObject
     {
         public void Copy(object source, object destination)
         {
+            
             if (source == null || destination == null)
             {
                 throw new ArgumentNullException("Objects are can't be null.");
             }
+
+           
 
             Type sourceType = source.GetType();
             Type destinationType = destination.GetType();
@@ -27,80 +30,173 @@ namespace Assignment_01_nestingObject
             // Console.WriteLine(sourceType);
             //Console.WriteLine(destinationType);
 
-            //if (sourceType != destinationType)
-            //{
-            //throw new ArgumentException("Source and destination objects should be same type.");
-            //}
+           
 
             PropertyInfo[] sourceProperties = sourceType.GetProperties();
             PropertyInfo[] destinationProperties = destinationType.GetProperties();
 
-            foreach (PropertyInfo sourceProperty in sourceProperties)
-            {
-               
-                    PropertyInfo destProp = Array.Find(destinationProperties, m => m.Name == sourceProperty.Name);
 
-                if (destProp != null)
-                {
-                    PropertyInfo SProperty = sourceType.GetProperty(sourceProperty.Name);
-                    PropertyInfo DProperty = destinationType.GetProperty(sourceProperty.Name);
-
-                    if (SProperty.PropertyType == DProperty.PropertyType)
-                    {
-                        //object value = SProperty.GetProperty(source);
-                        //DProperty.SetValue(destination, value);
-                        Console.WriteLine(SProperty.Name);
-                        Console.WriteLine(DProperty.Name);
-                        
-
-
-
-                    }
-
-                }
-
-
-                }
-               
-
- 
-            Console.WriteLine();
+            //Here
 
             foreach (PropertyInfo sourceProperty in sourceProperties)
             {
+
                 PropertyInfo destProp = Array.Find(destinationProperties, m => m.Name == sourceProperty.Name);
+
                 if (destProp != null)
                 {
                     PropertyInfo SProperty = sourceType.GetProperty(sourceProperty.Name);
                     PropertyInfo DProperty = destinationType.GetProperty(sourceProperty.Name);
 
-                    if (SProperty.PropertyType == DProperty.PropertyType)
+                   if ((SProperty.PropertyType == typeof(string)) || (SProperty.PropertyType == typeof(int)) || (SProperty.PropertyType == typeof(bool))
+                       || (SProperty.PropertyType == typeof(byte)) || (SProperty.PropertyType == typeof(short)) || (SProperty.PropertyType == typeof(long)) 
+                       || (SProperty.PropertyType == typeof(float)) || (SProperty.PropertyType == typeof(double)) )
                     {
-                        Console.WriteLine(DProperty.Name);
-                        Console.WriteLine(SProperty.Name);
-                       // object sourceValue = SProperty.GetValue(source);
-                        //object destValue = DProperty.GetValue(destination);
 
-                        //if (sourceValue!= null && destValue!= null)
-                        //{
-                          //  Copy(sourceValue, destValue);
-                        //}
+                        if (SProperty.PropertyType == DProperty.PropertyType)
+                        {
+                            if ((SProperty.Name).Equals(DProperty.Name))
+                            {
+                                if ((SProperty.GetValue(source)).Equals(DProperty.GetValue(destination)))
+                                {
 
-                      // Copy(sourceValue, destValue);
+                                    
+                                  //  Console.WriteLine(SProperty.Name);
+                                    //Console.WriteLine(DProperty.Name);
+
+                                    //Console.WriteLine(value.ToString());
+                                   
+
+                                    //here
+                                    Console.WriteLine($"Property Name: {SProperty.Name}");
+                                    Console.WriteLine($"Source Value: {SProperty.GetValue(source)}");
+                                    Console.WriteLine($"Destination Value: {DProperty.GetValue(destination)}");
+                                   Console.WriteLine();
+
+
+                                   
+                                    //here
+                               }
+                           }
+                        }
+
                     }
-    
 
+                    //here1
+                   else if ( (SProperty.PropertyType.IsClass ) && (SProperty.PropertyType.GetInterfaces().Contains(typeof(IEnumerable))) && (SProperty.PropertyType != typeof(string)) && (SProperty.PropertyType != typeof(int)) )
+                    {
+                        //object destValue = Activator.CreateInstance(DProperty.PropertyType).ToString();
+                       // Console.WriteLine("he");
+
+                        var S = (IEnumerable)SProperty.GetValue(source);
+                        var D = (IEnumerable)DProperty.GetValue(destination);
+
+                       // Console.WriteLine(S);
+
+                        if ((SProperty.PropertyType == DProperty.PropertyType) && (SProperty.Name == DProperty.Name) )
+                        {
+                            var sourceList = new List<object>();
+                            var destinationList = new List<object>();
+
+                            foreach (var item in S)
+                            {
+                                //hh
+                               // Type s1 = item.GetType();
+                                //var values1 = s1.GetProperties(BindingFlags.Instance);
+                                //foreach (var value in values1)
+                                //{
+                                  //  Console.WriteLine(value.GetValue(item));
+                                //}
+                                //hh
+                                
+                                // Console.WriteLine(item);
+                                sourceList.Add(item);
+                               // Console.WriteLine();
+
+                            }
+
+                           
+
+                            foreach (var item in D)
+                            {
+                                destinationList.Add(item);
+
+
+                                //hhh
+                               // Type s2 = item.GetType();
+                                //var values2 = s2.GetProperties(BindingFlags.Instance);
+                                //foreach (var value in values2)
+                                //{
+                                  //  Console.WriteLine(value.GetValue(item));
+                                //}
+                                //hhh
+                                //Console.WriteLine(item);
+                            }
+
+                            Console.WriteLine();
+
+                            //Console.WriteLine(destinationList.Count);
+
+
+                            if (sourceList.Count == destinationList.Count)
+                            {
+
+                                for (int i = 0; i < sourceList.Count; i++)
+                                {
+                                    
+                                    Copy(sourceList[i], destinationList[i]);
+
+
+
+                                    //here
+                                    if ((sourceList[i].Equals(destinationList[i])) )
+                                    {
+                                      // if (SProperty.Name != 0)
+                                        //{
+
+                                           Console.WriteLine($"Property Name: {SProperty.Name}");
+
+                                       
+
+                                        Console.WriteLine($"Source Value: {sourceList[i]}");
+                                        Console.WriteLine($"Destination Value: {destinationList[i]}");
+                                        Console.WriteLine();
+
+
+                                       
+                                        
+                                        //}
+
+                                    }
+                                    //here
+
+                                }
+                            }
+                        }
+                    }
                 }
+            }
+        
+                        //here1
+
+
+                    
+
                 
 
-            }
 
+            
+            //here
 
            
+
+           
+
+            
+
+
 
         }
 
     }
-    }
-
-    
+}
