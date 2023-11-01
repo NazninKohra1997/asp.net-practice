@@ -89,6 +89,7 @@ catch (Exception ex)
 
 
     Log.Fatal(ex, "Error is occuring");
+  //  Log.Error(ex, "Error is occuring");
   
 }
 

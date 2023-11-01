@@ -16,9 +16,10 @@ namespace Assignment_Logger.Controllers
         public IActionResult Index()
         {
             _logger.LogInformation("I'm in homepage now!");
-          //  _logger.LogError("This is an error message");
+         
             return View();
         }
+
 
         public IActionResult Privacy()
         {
