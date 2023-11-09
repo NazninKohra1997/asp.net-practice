@@ -1,0 +1,8 @@
+﻿@function ApplyColor($Color1){
+    @return $Color1;
+}
+
+.class1{
+    background-color : ApplyColor(green);
+    color : ApplyColor(yellow);
+}

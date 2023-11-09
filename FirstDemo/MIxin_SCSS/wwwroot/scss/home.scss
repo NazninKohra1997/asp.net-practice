@@ -1,0 +1,8 @@
+﻿@mixin ApplyColor($color1, $color2){
+    background-color : $color1;
+    color : $color2
+}
+
+.class1{
+   @include ApplyColor(grey,yellow);
+}

@@ -1,0 +1,12 @@
+﻿$button : grey;
+
+.cl1{
+    background-color : $button;
+    button{
+        background-color : burlywood;
+        &:hover{
+            background-color : blueviolet;
+        }
+    }
+}
+

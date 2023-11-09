@@ -1,0 +1,43 @@
+﻿ @import "./var.scss";
+
+
+ .myBtn1{
+     background-color : $btnColor;
+ }
+
+ .myBtn2{
+     background-color : $btnColor;
+ }
+
+ .myDiv{
+     background-color : bisque;
+
+     button{
+         background-color : brown;
+         &:hover{
+             background-color : black;
+         }
+     }
+ }
+
+
+
+
+ @mixin ApplyColor($color1 : red, $color2 : white){
+     background-color : $color1;
+     color : $color2;
+ }
+
+.cl1 {
+    @include ApplyColor(grey,yellow);
+
+}
+
+
+@function Func($color1){
+    @return $color1;
+}
+
+.cl2{
+    background-color : Func(blue);
+}

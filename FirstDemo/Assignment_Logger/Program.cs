@@ -10,35 +10,33 @@ using System.Net;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore;
-
+using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
+using static System.Net.Mime.MediaTypeNames;
+using System.Net.Sockets;
+using System.Threading.Channels;
+using Microsoft.Identity.Client;
+using Org.BouncyCastle.Crypto.Tls;
+using MailKit.Security;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
-//for files
+//for serilog
 
 builder.Host.UseSerilog((ctx, lc) => lc.MinimumLevel.Debug()
-                                      .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
-                                      .Enrich.FromLogContext()
-                                      .ReadFrom.Configuration(builder.Configuration)
+                                    .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+                                  .Enrich.FromLogContext()
+                                .ReadFrom.Configuration(builder.Configuration)
 );
 
-//for files
-
-
-//for email
-
-
-
-Log.Logger = new LoggerConfiguration()
-  .ReadFrom.Configuration(builder.Configuration)
-.CreateLogger();
+//for serilog
 
 
 
 
 
-//for email
+
+
 
 
 try
@@ -54,7 +52,13 @@ try
         .AddEntityFrameworkStores<ApplicationDbContext>();
     builder.Services.AddControllersWithViews();
 
+
+
+
+
     var app = builder.Build();
+
+
 
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())
@@ -69,6 +73,7 @@ try
     }
 
     app.UseHttpsRedirection();
+
     app.UseStaticFiles();
 
     app.UseRouting();
@@ -82,6 +87,7 @@ try
 
     app.Run();
     Log.Information("Logging is starting");
+
 }
 
 catch (Exception ex)
@@ -89,7 +95,7 @@ catch (Exception ex)
 
 
     Log.Fatal(ex, "Error is occuring");
-  //  Log.Error(ex, "Error is occuring");
+ 
   
 }
 

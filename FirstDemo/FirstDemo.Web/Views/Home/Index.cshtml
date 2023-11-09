@@ -3,16 +3,49 @@
 }
 
 @{
-    Layout = "_Layout-2";
+    Layout = "_Layout";
 }
 
 @model Model2 
+
+@section Styles{
+    <link rel="stylesheet" href="~/SCss/home.css" />
+}
 
 
 <div class="text-center">
     <h1 class="display-4">@Model.Name</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+
+
+<div>
+    <button class="myBtn1">
+        Button1
+    </button>
+
+    <button class="myBtn2">
+        Button2
+    </button>
+
+    <button> Button3 </button>
+
+</div>
+
+
+<div class="myDiv">
+    <button> Nested button </button>
+</div>
+
+<p class="cl1">
+    This is me! Hey what's up?
+</p>
+
+
+<p class="cl2">
+    This is me! Hey what's up?
+</p>
 
 
 @section Scripts{
