@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+   
+
+}
+
+
+<div class="row justify-content-center align-items-center h-100">
+    <div class="col-xl-10 col-lg-12 col-md-9">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <!-- Nested Row within Card Body -->
+                <div class="row">
+                    <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                    <div class="col-lg-6">
+                        <div class="p-5 py-lg-12">
+                            <div>
+                                <form method="post" action="/account/externallogin">
+                                    <div>
+                                        <button type="submit" class="btn btn-block btn-lg font-weight-bold btn-outline-danger" style="background:white;color: #b01625" name="provider" value="Google" title="Signup Using Google">
+                                            <i class="fab fa-google"></i>
+                                            Signup Using Google
+                                        </button>
+                                        <button type="submit" class="btn btn-block btn-lg font-weight-bold btn-outline-primary" style="background:white;color: #197fc3" name="provider" value="Facebook" title="Signup Using Facebook">
+                                            <i class="fab fa-facebook"></i>
+                                            Signup Using Facebook
+                                        </button>
+                                    </div>
+                                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8P40t4G_JsFFs_pQTl-tsXxldgsquDdr0bXq_rcN3lKuQCHCag6FfX9blWNcL8PfPw7CvzCB7YqmKG2DLIOD3AYjae1a7n-AHoVsjcCxry8wFuEWEVgmYRfWWXQTHLRFimSB-dUN28Ydg2n4qnQCUgo">
+                                </form>
+                            </div>
+
+                            <form method="post" action="/account/signup" novalidate="novalidate">
+                                <div>
+                                    <div class="text-danger validation-summary-valid" style="margin-top:30px" data-valmsg-summary="true">
+                                        <ul>
+                                            <li style="display:none"></li>
+                                        </ul>
+                                    </div>
+                                    <input type="hidden" id="ReferralCode" name="ReferralCode" value="">
+                                    <div class="form-group">
+                                        <label for="Email">Email Address</label>
+                                        <input type="text" class="form-control" name="Email" id="Email" placeholder="name@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Password">Password</label>
+                                        <input type="password" class="form-control" id="Password" data-val="true" data-val-length="The Password must be at least 6 and at max 100 characters long." data-val-length-max="100" data-val-length-min="6" data-val-required="The Password field is required." maxlength="100" name="Password">
+                                        <small>Password must be at least 6 characters long and must have at least one digit ('0'-'9')</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="ConfirmPassword">Confirm password</label>
+                                        <input type="password" class="form-control" id="ConfirmPassword" data-val="true" data-val-equalto="The password and confirmation password do not match." data-val-equalto-other="*.Password" name="ConfirmPassword">
+                                    </div>
+                                    <input hidden="" type="text" id="Token" name="Token" value="">
+                                    <input value="Email" hidden="" type="text" id="SignUpUsing" name="SignUpUsing">
+                                    <button type="submit" class="btn btn-primary">
+                                        Sign Up
+                                    </button>
+                                </div>
+                                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8P40t4G_JsFFs_pQTl-tsXxldgsquDdr0bXq_rcN3lKuQCHCag6FfX9blWNcL8PfPw7CvzCB7YqmKG2DLIOD3AYjae1a7n-AHoVsjcCxry8wFuEWEVgmYRfWWXQTHLRFimSB-dUN28Ydg2n4qnQCUgo">
+                            </form>
+
+                            <div class="small mt-2">
+                                Already created an account using your email and password?
+                                <a class="d-block" href="/account/signin">Sign In Using E-mail Address</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

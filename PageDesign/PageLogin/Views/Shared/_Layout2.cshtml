@@ -1,0 +1,305 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="http://localhost:5229/img/favicon.png
+    <link rel="author" href="http://localhost:5229/">
+    <title>@ViewData["Title"] - Dev Skill - Signup</title>
+   
+    <link rel="stylesheet" href="~/plugins/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="~/Admin/css/adminlte.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&amp;display=swap" rel="stylesheet">
+    <script src="https://connect.facebook.net/en_US/sdk.js?hash=2b1651b1bc0fb2fe0f9228557e89a10b" async="" crossorigin="anonymous"></script>
+    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+
+
+</head>
+
+
+
+
+<body class="bg-light" style="height: auto;">
+    <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+    <script src="https://connect.facebook.net/en_US/sdk.js?hash=ebca6a25bf83245fede988871e166228" async="" crossorigin="anonymous"></script>
+    <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/-QbJqHfGOUB8nuVRLvzFLVed/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-oyOrIfu0dTVXgJDnDwTkpAOw6OQnC6D4wN0pmPLvl75dXBhYohgWHMyv3Y05PPLU"></script>
+    <script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v5.0"></script>
+    <meta name="google-signin-client_id" content="859904339961-4h1bj926vt3kvtfg28unbhe16r8i41uf.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async="" defer="" gapi_processed="true"></script>
+    <!-- /please remove this to proper place before deploying in production-->
+    <!--top nav-->
+    <div class="container-fluid border-bottom">
+        <div class="navbar navbar-expand">
+            <!-- Brand Logo -->
+            <a href="/" class="border-light brand-link">
+                <img src="/img/img_logo_ds_sm.svg" alt="DevSkill" class="brand-image-xl logo-xs">
+                <img src="/img/logo.png" alt="DevSkill" class="brand-image-xs logo-xl">
+            </a>
+            <ul class="ml-auto mr-sm-auto navbar-nav">
+                <li class="nav-item d-sm-inline-block">
+                    <a class="nav-link text-body text-lg font-weight-bold" href="/course">COURSES</a>
+                </li>
+                <li class="nav-item d-sm-inline-block">
+                    <a class="nav-link text-body active text-lg font-weight-bold" href="/webinar">WEBINAR</a>
+                </li>
+                <li class="nav-item d-sm-inline-block">
+                    <a class="nav-link text-body active text-lg font-weight-bold" href="/seminar">SEMINAR</a>
+                </li>
+                <li class="nav-item d-sm-inline-block">
+                    <a class="nav-link text-body text-lg font-weight-bold" href="/blog">BLOG</a>
+                </li>
+                <li class="nav-item d-sm-inline-block">
+                    <a class="nav-link text-body text-lg font-weight-bold" href="/faq">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--/top nav-->
+    <!-- page content-->
+    <div class="container flex-grow-1">
+        <!-- Outer Row -->
+        @RenderBody()
+    </div>
+
+
+    <!-- Main Footer -->
+    <footer class="bg-light border-top container-fluid p-3">
+        <div class="d-flex flex-row">
+            <div>© 2023 <a href="https://devskill.com">Dev Skill</a></div>
+            <div class="text-right col">
+                <a href="https://www.facebook.com/groups/devskillbd">
+                    <img width="100" src="/img/FindUs-FB-RGB.svg" alt="Facebook Page">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- REQUIRED SCRIPTS -->
+    <!-- jQuery -->
+    <script src="/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/js/adminlte.min.js"></script>
+
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+    <script>
+        // Utility function
+        function isEmptyOrSpaces(str) {
+            return str === null || str.match(/^ *$/) !== null;
+        }
+
+        function addInputValidClass(field) {
+            $(field).removeClass('input-validation-error');
+            $(field).addClass('valid');
+        }
+
+        function addInputErrorClass(field) {
+            $(field).removeClass('valid');
+            $(field).addClass('input-validation-error');
+        }
+
+        // Return true if has error, otherwise false
+        function checkTimeValue(time) {
+            if (!time) {
+                return true;
+            }
+            time = time.split(':');
+            if (time[0] > 23 || time[1] > 59) {
+                return true;
+            } else if (time[0] === "" || time[1] === "") {
+                return true;
+            } else if (time[0][1] === "_" || time[1][1] === "_") {
+                return true;
+            }
+
+            return false;
+        }
+
+        function validateTime(e) {
+            let time = e.target.value;
+            // Took logic in separate method to be used during form submission
+            if (checkTimeValue(time)) {
+                addInputErrorClass(e.target);
+            } else {
+                addInputValidClass(e.target);
+            }
+        }
+
+    </script>
+    <script>
+        // Validate collection of input elements and return true if hasError, otherwise return false
+        function validateInputCollection(selectionString) {
+            let inputCollection = $(selectionString);
+            inputCollection = Object.entries(inputCollection);
+            let inputCollectionToValidate = [];
+            let len = inputCollection.length;
+            let hasError = false;
+
+            inputCollection.forEach((item, index) => {
+                if (index >= (len - 2)) {
+                    return;
+                }
+                inputCollectionToValidate.push(item[1]);
+            });
+
+            inputCollectionToValidate.forEach((item, index) => {
+                if (isEmptyOrSpaces(item.value)) {
+                    hasError = true;
+                    $(item).removeClass('valid');
+                    $(item).addClass('input-validation-error');
+                } else {
+                    $(item).removeClass('input-validation-error');
+                    $(item).addClass('valid');
+                }
+            });
+
+            return hasError;
+        }
+    </script>
+
+    <script>
+        // For Select2 Validation
+        function validateSelect2Input(defaultValue) {
+            let collection = $('.select2.select2-container .selection .select2-selection .select2-selection__rendered');
+            collection = Object.entries(collection);
+            let hasError = false;
+
+            collectionToValidate = [];
+            collection.forEach((item, index) => {
+                if (index === collection.length - 1) {
+                    return;
+                }
+                collectionToValidate.push(item);
+            })
+
+            for (let i = 0; i <= collectionToValidate.length - 2; i++) {
+                if (collectionToValidate[i][1].title === defaultValue) {
+                    $(collectionToValidate[i]).removeClass('valid');
+                    $(collectionToValidate[i][1]).parent().removeClass('valid');
+                    $(collectionToValidate[i]).addClass('select2-validation-error'); // For image
+                    $(collectionToValidate[i][1]).parent().addClass('select2-validation-error'); // For border color
+                    hasError = true;
+                } else {
+                    $(collectionToValidate[i]).removeClass('select2-validation-error');
+                    $(collectionToValidate[i][1]).parent().removeClass('select2-validation-error');
+                    $(collectionToValidate[i]).addClass('valid'); // For image
+                    $(collectionToValidate[i][1]).parent().addClass('valid'); // For border color
+                }
+            }
+
+            return hasError;
+        }
+
+    </script>
+
+    <script>
+        // Script to update unobtrusiveValidation when dynamic content is added in form
+        (function ($) {
+            $.fn.updateValidation = function () {
+                var $this = $(this);
+                var form = $this.closest("form")
+                    .removeData("validator")
+                    .removeData("unobtrusiveValidation");
+                $.validator.unobtrusive.parse(form);
+
+                return $this;
+            };
+        })(jQuery);
+    </script>
+
+    <script>
+        //This script contains validation for custom data annotations
+
+        // For EnsureOneItemAttribute data annotation
+        $.validator.addMethod("oneItem", function (value, element, parameters) {
+            if (value === undefined || isEmptyOrSpaces(value)) {
+                return false;
+            }
+
+            return true;
+        });
+
+        $.validator.unobtrusive.adapters.add("oneItem", [], function (options) {
+            options.rules.oneItem = {};
+            options.messages["oneItem"] = options.message;
+        });
+
+        // To ensure jquery considers empty string in Class Start or End time as invalid
+        $.validator.addMethod("noEmptyString", function (value, element, parameters) {
+            if (isEmptyOrSpaces(value)) {
+                return false;
+            }
+
+            return true;
+        });
+
+        $.validator.unobtrusive.adapters.add("noEmptyString", [], function (options) {
+            options.rules.oneItem = {};
+            options.messages["noEmptyString"] = "Valid Time is required";
+        });
+
+        // For DateGreaterThanSevenDaysInFutureAttribute data annotation
+        $.validator.addMethod("startdate", function (value, element, parameters) {
+            let inputDate = new Date(value.split('/')[2], value.split('/')[1] - 1, value.split('/')[0]);
+            let expectedDate = new Date();
+            expectedDate.setDate(expectedDate.getDate() + 7);
+
+            if (expectedDate.getTime() < inputDate.getTime()) {
+                return true;
+            }
+
+            return false;
+        });
+
+        $.validator.unobtrusive.adapters.add("startdate", [], function (options) {
+            options.rules.startdate = {};
+            options.messages["startdate"] = options.message;
+        });
+
+        // For Enforce data annotation
+        $.validator.addMethod("enforcetrue", function (value, element, param) {
+            return element.checked;
+        });
+
+        $.validator.unobtrusive.adapters.addBool("enforcetrue");
+
+        $.validator.addMethod("filetype", function (value, element, params) {
+            const fileType = value.split('.').pop();
+            if (params["types"].includes(fileType)) {
+                return true;
+            } else {
+                return false;
+            }
+        })
+
+        $.validator.unobtrusive.adapters.add('filetype', ['types'], function (options) {
+            options.rules['filetype'] = options.params;
+            options.messages['filetype'] = options.message;
+        });
+    </script>
+
+
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lcdcd4ZAAAAADp1_NYVXpOZu9mhnYjrq0ewyIbs"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6Lcdcd4ZAAAAADp1_NYVXpOZu9mhnYjrq0ewyIbs', { action: 'homepage' }).then(function (token) {
+                $('#Token').val(token);
+            });
+        });
+    </script>
+
+
+
+    <div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-6qo5p8f7jpp4" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lcdcd4ZAAAAADp1_NYVXpOZu9mhnYjrq0ewyIbs&amp;co=aHR0cHM6Ly93d3cuZGV2c2tpbGwuY29tOjQ0Mw..&amp;hl=en&amp;v=-QbJqHfGOUB8nuVRLvzFLVed&amp;size=invisible&amp;cb=qattxy5vatt3"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+
+
+
+
+</html>
