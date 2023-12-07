@@ -11,8 +11,15 @@ PC pc = new PC(101,"acer", new List<Motherboard>() { new Motherboard(new List<RA
        
        );
 
+PC pc1 = new PC(102, null, new List<Motherboard>() { new Motherboard(new List<RAM>(){new RAM(new int[] {64,32})},  new List<CPU>(){new CPU(new string[]{"Intel corei5","Intel"})}),
+
+                            new Motherboard(new List<RAM>() { new RAM(new int[] { 16, 48 }) }, new List<CPU>() { new CPU(new string[] { "Intel corei7" }) })});
+
+
 
 
 SimpleMapper mapper = new SimpleMapper();
 
-mapper.Copy(laptop, pc);
+mapper.Copy(laptop, pc1);
+
+

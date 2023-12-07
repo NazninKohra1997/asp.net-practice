@@ -34,14 +34,17 @@ namespace Assignment_01_nestingObject
 
             PropertyInfo[] sourceProperties = sourceType.GetProperties();
             PropertyInfo[] destinationProperties = destinationType.GetProperties();
+            
 
 
             //Here
 
             foreach (PropertyInfo sourceProperty in sourceProperties)
             {
+                
 
                 PropertyInfo destProp = Array.Find(destinationProperties, m => m.Name == sourceProperty.Name);
+               
                 if (sourceProperty.Name == "Length")
                 {
                     continue;
@@ -51,6 +54,8 @@ namespace Assignment_01_nestingObject
                 {
                     PropertyInfo SProperty = sourceType.GetProperty(sourceProperty.Name);
                     PropertyInfo DProperty = destinationType.GetProperty(sourceProperty.Name);
+
+                    //Console.WriteLine(SProperty.Name);
 
                    if ((SProperty.PropertyType == typeof(string)) || (SProperty.PropertyType == typeof(int)) || (SProperty.PropertyType == typeof(bool))
                        || (SProperty.PropertyType == typeof(byte)) || (SProperty.PropertyType == typeof(short)) || (SProperty.PropertyType == typeof(long)) 
@@ -72,13 +77,14 @@ namespace Assignment_01_nestingObject
 
 
                                     //here
-                                    Console.WriteLine($"The Copy value beteween {SProperty.DeclaringType.FullName} and {DProperty.DeclaringType.FullName} are:");
-                                    Console.WriteLine($"Property Name: {SProperty.Name}");
-                                    Console.WriteLine($"Source Value: {SProperty.GetValue(source)}");
+                                    //  Console.WriteLine($"The Copy value beteween {SProperty.DeclaringType.FullName} and {DProperty.DeclaringType.FullName} are:");
+                                    //  Console.WriteLine($"Property Name: {SProperty.Name}");
+                                    //Console.WriteLine($"Source Value: {SProperty.GetValue(source)}");
 
-                                   
-                                    Console.WriteLine($"Destination Value: {DProperty.GetValue(destination)}");
-                                   Console.WriteLine();
+
+                                    //Console.WriteLine($"Destination Value: {DProperty.GetValue(destination)}");
+                                    Console.WriteLine(SProperty.GetValue(source));
+                                  // Console.WriteLine();
 
 
                                    
@@ -140,7 +146,7 @@ namespace Assignment_01_nestingObject
                                 //Console.WriteLine(item);
                             }
 
-                            Console.WriteLine();
+                          // Console.WriteLine();
 
                             //Console.WriteLine(destinationList.Count);
 
@@ -162,14 +168,15 @@ namespace Assignment_01_nestingObject
                                         //{
 
 
-                                        Console.WriteLine($"The Copy value beteween {SProperty.DeclaringType.FullName} and {DProperty.DeclaringType.FullName} are:");
-                                        Console.WriteLine($"Property Name:  {SProperty.Name}");
+                                        // Console.WriteLine($"The Copy value beteween {SProperty.DeclaringType.FullName} and {DProperty.DeclaringType.FullName} are:");
+                                        //Console.WriteLine($"Property Name:  {SProperty.Name}");
 
-                                       
 
-                                        Console.WriteLine($"Source Value: {sourceList[i]}");
-                                        Console.WriteLine($"Destination Value: {destinationList[i]}");
-                                        Console.WriteLine();
+
+                                        //Console.WriteLine($"Source Value: {sourceList[i]}");
+                                        //Console.WriteLine($"Destination Value: {destinationList[i]}");
+                                        Console.WriteLine(sourceList[i]);
+                                        //Console.WriteLine();
 
 
                                        
