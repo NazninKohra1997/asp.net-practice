@@ -1,8 +1,8 @@
-﻿using DDD.web.Models;
+﻿using DDD_01.web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace DDD.web.Controllers
+namespace DDD_01.web.Controllers
 {
     public class HomeController : Controller
     {

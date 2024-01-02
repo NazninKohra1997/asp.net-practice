@@ -1,4 +1,4 @@
-namespace DDD.web.Models
+namespace DDD_01.web.Models
 {
     public class ErrorViewModel
     {
