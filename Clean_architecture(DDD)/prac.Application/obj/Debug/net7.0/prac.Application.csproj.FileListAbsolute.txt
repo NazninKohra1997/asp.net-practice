@@ -1,0 +1,15 @@
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\bin\Debug\net7.0\prac.Application.deps.json
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\bin\Debug\net7.0\prac.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\bin\Debug\net7.0\prac.Application.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\bin\Debug\net7.0\prac.Domain.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\bin\Debug\net7.0\prac.Domain.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\obj\Debug\net7.0\prac.Application.csproj.AssemblyReference.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\obj\Debug\net7.0\prac.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\obj\Debug\net7.0\prac.Application.AssemblyInfoInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\obj\Debug\net7.0\prac.Application.AssemblyInfo.cs
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\obj\Debug\net7.0\prac.Application.csproj.CoreCompileInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\obj\Debug\net7.0\prac.Application.csproj.CopyComplete
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\obj\Debug\net7.0\prac.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\obj\Debug\net7.0\refint\prac.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\obj\Debug\net7.0\prac.Application.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Application\obj\Debug\net7.0\ref\prac.Application.dll
