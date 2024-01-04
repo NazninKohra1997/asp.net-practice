@@ -88,3 +88,5 @@ C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\DDD_01.Domain.dll
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\DDD_01.Application.pdb
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\DDD_01.Domain.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\DDD_01.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\DDD_01.Infrastructure.pdb
