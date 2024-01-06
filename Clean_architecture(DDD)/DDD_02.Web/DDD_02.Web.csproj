@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-DDD_02.Web-0b984675-1833-4d69-a7d3-918ab75563e0</UserSecretsId>
+    <UserSecretsId>aspnet-DDD_02.Web-81e54787-36bf-45c3-be7f-af4a44b0f22f</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DDD_02.Application\DDD_02.Application.csproj" />
+    <ProjectReference Include="..\DDD_02.Infrastructure\DDD_02.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

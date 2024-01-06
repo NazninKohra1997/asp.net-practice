@@ -1,12 +1,3 @@
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.csproj.AssemblyReference.cache
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.AssemblyInfoInputs.cache
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.AssemblyInfo.cs
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.csproj.CoreCompileInputs.cache
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.RazorAssemblyInfo.cache
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.RazorAssemblyInfo.cs
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\appsettings.json
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\DDD_02.Web.staticwebassets.runtime.json
@@ -72,6 +63,15 @@ C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\DDD_02.Domain.dll
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\DDD_02.Application.pdb
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\DDD_02.Domain.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.csproj.AssemblyReference.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.AssemblyInfoInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.AssemblyInfo.cs
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.csproj.CoreCompileInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.RazorAssemblyInfo.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.RazorAssemblyInfo.cs
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\staticwebassets\msbuild.DDD_02.Web.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\staticwebassets\msbuild.build.DDD_02.Web.props
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DDD_02.Web.props
@@ -88,7 +88,3 @@ C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.pdb
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\DDD_02.Web.genruntimeconfig.cache
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\obj\Debug\net7.0\ref\DDD_02.Web.dll
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\DDD_01.Domain.dll
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\DDD_01.Infrastructure.dll
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\DDD_01.Domain.pdb
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\DDD_01.Infrastructure.pdb

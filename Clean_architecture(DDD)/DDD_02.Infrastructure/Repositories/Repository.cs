@@ -1,6 +1,6 @@
 ﻿using DDD_02.Domain.Entities;
-using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Dynamic.Core;
 
-namespace DDD_02.Application
+namespace DDD_02.Infrastructure.Repositories
 {
-    public abstract class Repository<TEntity,TKey> : IRepository<TEntity,TKey>
-        where TEntity : class, IEntity<TKey>
-        where TKey : IComparable
+   public abstract class Repository<TEntity,TKey> : IRepository<TEntity, TKey>
+                                                where TEntity : class, IEntity<TKey>
+                                                where TKey : IComparable
     {
 
         protected DbContext _dbContext;

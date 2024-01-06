@@ -6,9 +6,9 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DDD_02.Domain
+namespace DDD_02.Domain.Repositories
 {
-    public interface IRepositoryBase<TEntity,TKey> where TEntity: class, IEntity<TKey>
+    public interface IRepositoryBase<TEntity,TKey> where TEntity : class, IEntity<TKey>
                                                    where TKey : IComparable
     {
         void Add(TEntity entity);
@@ -19,7 +19,8 @@ namespace DDD_02.Domain
         Task EditAsync(TEntity entityToUpdate);
 
         IList<TEntity> GetAll();
-        Task<IList<TEntity>> GetAllAsync();
+
+        Task <IList<TEntity>> GetAllAsync();
 
         TEntity GetById(TKey id);
         Task<TEntity> GetByIdAsync(TKey id);
@@ -29,14 +30,16 @@ namespace DDD_02.Domain
         Task<int> GetCountAsync(Expression<Func<TEntity, bool>> filter = null);
 
         void Remove(Expression<Func<TEntity, bool>> filter);
-        Task RemoveAsync(Expression<Func<TEntity, bool>> filter);
         void Remove(TEntity entityToDelete);
-        Task RemoveAsync(TEntity entityToDelete);
 
         void Remove(TKey id);
+
+        Task RemoveAsync(Expression<Func<TEntity, bool>> filter);
+        Task RemoveAsync(TEntity entityToDelete);
+
         Task RemoveAsync(TKey id);
 
-      
-       
+
+
     }
 }

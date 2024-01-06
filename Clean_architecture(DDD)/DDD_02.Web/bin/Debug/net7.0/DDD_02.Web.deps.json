@@ -666,25 +666,6 @@
           }
         }
       },
-      "DDD_01.Domain/1.0.0": {
-        "runtime": {
-          "DDD_01.Domain.dll": {}
-        }
-      },
-      "DDD_01.Infrastructure/1.0.0": {
-        "dependencies": {
-          "DDD_01.Domain": "1.0.0",
-          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.14",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.14",
-          "Microsoft.AspNetCore.Identity.UI": "7.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14",
-          "Microsoft.Extensions.Identity.Stores": "7.0.14",
-          "System.Linq.Dynamic.Core": "1.3.7"
-        },
-        "runtime": {
-          "DDD_01.Infrastructure.dll": {}
-        }
-      },
       "DDD_02.Application/1.0.0": {
         "dependencies": {
           "DDD_02.Domain": "1.0.0",
@@ -700,9 +681,6 @@
         }
       },
       "DDD_02.Domain/1.0.0": {
-        "dependencies": {
-          "DDD_01.Infrastructure": "1.0.0"
-        },
         "runtime": {
           "DDD_02.Domain.dll": {}
         }
@@ -1204,16 +1182,6 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
-    },
-    "DDD_01.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "DDD_01.Infrastructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "DDD_02.Application/1.0.0": {
       "type": "project",

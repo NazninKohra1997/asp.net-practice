@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DDD_02.Domain
 {
-   public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         void Save();
     }

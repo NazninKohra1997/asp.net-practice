@@ -1,5 +1,5 @@
-﻿using DDD_02.Domain;
-using DDD_02.Domain.Entities;
+﻿using DDD_02.Domain.Entities;
+using DDD_02.Domain.Repositories;
 using Microsoft.EntityFrameworkCore.Query;
 using System;
 using System.Collections.Generic;
@@ -8,11 +8,11 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DDD_02.Application
+namespace DDD_02.Infrastructure.Repositories
 {
-    public interface IRepository<TEntity,TKey> : IRepositoryBase<TEntity,TKey>
-        where TEntity : class,IEntity<TKey>
-        where TKey : IComparable
+   public interface IRepository<TEntity,TKey> : IRepositoryBase<TEntity, TKey>
+                                                where TEntity : class, IEntity<TKey>
+                                                where TKey : IComparable
     {
         IList<TEntity> Get(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null, bool isTrackingOff = false);
         (IList<TEntity> data, int total, int totalDisplay) Get(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null, int pageIndex = 1, int pageSize = 10, bool isTrackingOff = false);

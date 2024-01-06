@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace DDD_02.Infrastructure
 {
-    public abstract class UnitOfWork : IUnitOfWork
+   public abstract class UnitOfWork : IUnitOfWork
     {
-        protected DbContext _dbContext;
-        
+        protected readonly DbContext _dbContext;
+
         public UnitOfWork(DbContext dbContext)
         {
             _dbContext = dbContext;
@@ -19,12 +19,12 @@ namespace DDD_02.Infrastructure
 
         public virtual void Dispose()
         {
-           _dbContext.Dispose();
+            _dbContext?.Dispose();
         }
 
         public virtual void Save()
         {
-            _dbContext.SaveChanges();
+           _dbContext?.SaveChanges();
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DDD_02.Domain.Repositories
 {
-   public interface ICourseRepository : IRepositoryBase<Course, Guid>
+    public interface ICourseRepository : IRepositoryBase<Course,Guid>
     {
     }
 }

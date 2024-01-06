@@ -131,6 +131,7 @@
           "Microsoft.AspNetCore.App"
         ],
         "build": {
+          "build/Microsoft.AspNetCore.Identity.UI.props": {},
           "buildTransitive/Microsoft.AspNetCore.Identity.UI.targets": {}
         },
         "buildMultiTargeting": {
@@ -1142,41 +1143,9 @@
           }
         }
       },
-      "DDD_01.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/DDD_01.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DDD_01.Domain.dll": {}
-        }
-      },
-      "DDD_01.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "DDD_01.Domain": "1.0.0",
-          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.14",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.14",
-          "Microsoft.AspNetCore.Identity.UI": "7.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14",
-          "Microsoft.Extensions.Identity.Stores": "7.0.14",
-          "System.Linq.Dynamic.Core": "1.3.7"
-        },
-        "compile": {
-          "bin/placeholder/DDD_01.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DDD_01.Infrastructure.dll": {}
-        }
-      },
       "DDD_02.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "DDD_01.Infrastructure": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/DDD_02.Domain.dll": {}
         },
@@ -3166,16 +3135,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "DDD_01.Domain/1.0.0": {
-      "type": "project",
-      "path": "../DDD_01.Domain/DDD_01.Domain.csproj",
-      "msbuildProject": "../DDD_01.Domain/DDD_01.Domain.csproj"
-    },
-    "DDD_01.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../DDD_01.Infrastructure/DDD_01.Infrastructure.csproj",
-      "msbuildProject": "../DDD_01.Infrastructure/DDD_01.Infrastructure.csproj"
-    },
     "DDD_02.Domain/1.0.0": {
       "type": "project",
       "path": "../DDD_02.Domain/DDD_02.Domain.csproj",
@@ -3187,6 +3146,9 @@
       "DDD_02.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 7.0.14",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.14",
+      "Microsoft.AspNetCore.Identity.UI >= 7.0.14",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
+      "Microsoft.Extensions.Identity.Stores >= 7.0.14",
       "System.Linq.Dynamic.Core >= 1.3.7"
     ]
   },
@@ -3238,6 +3200,18 @@
             "version": "[7.0.14, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.14, )"
+          },
+          "Microsoft.AspNetCore.Identity.UI": {
+            "target": "Package",
+            "version": "[7.0.14, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[7.0.14, )"
+          },
+          "Microsoft.Extensions.Identity.Stores": {
             "target": "Package",
             "version": "[7.0.14, )"
           },

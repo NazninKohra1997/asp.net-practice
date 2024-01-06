@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DDD_01.Infrastructure\DDD_01.Infrastructure.csproj" />
-  </ItemGroup>
-
 </Project>
