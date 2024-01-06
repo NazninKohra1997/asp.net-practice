@@ -1,0 +1,11 @@
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\bin\Debug\net7.0\prac2.Domain.deps.json
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\bin\Debug\net7.0\prac2.Domain.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\bin\Debug\net7.0\prac2.Domain.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\obj\Debug\net7.0\prac2.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\obj\Debug\net7.0\prac2.Domain.AssemblyInfoInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\obj\Debug\net7.0\prac2.Domain.AssemblyInfo.cs
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\obj\Debug\net7.0\prac2.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\obj\Debug\net7.0\prac2.Domain.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\obj\Debug\net7.0\refint\prac2.Domain.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\obj\Debug\net7.0\prac2.Domain.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Domain\obj\Debug\net7.0\ref\prac2.Domain.dll

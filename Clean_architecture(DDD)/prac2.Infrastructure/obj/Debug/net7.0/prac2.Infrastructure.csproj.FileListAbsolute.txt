@@ -1,0 +1,17 @@
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\obj\Debug\net7.0\prac2.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\obj\Debug\net7.0\prac2.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\obj\Debug\net7.0\prac2.Infrastructure.AssemblyInfo.cs
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\obj\Debug\net7.0\prac2.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\bin\Debug\net7.0\prac2.Infrastructure.deps.json
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\bin\Debug\net7.0\prac2.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\bin\Debug\net7.0\prac2.Infrastructure.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\obj\Debug\net7.0\prac2.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\obj\Debug\net7.0\prac2.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\obj\Debug\net7.0\refint\prac2.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\obj\Debug\net7.0\prac2.Infrastructure.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\obj\Debug\net7.0\ref\prac2.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\bin\Debug\net7.0\prac2.Domain.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\bin\Debug\net7.0\prac2.Domain.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\obj\Debug\net7.0\prac2.Infrastructure.csproj.CopyComplete
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\bin\Debug\net7.0\prac2.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac2.Infrastructure\bin\Debug\net7.0\prac2.Application.pdb
