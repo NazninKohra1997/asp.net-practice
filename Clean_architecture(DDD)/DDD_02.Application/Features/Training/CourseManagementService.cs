@@ -1,4 +1,5 @@
 ﻿using DDD_02.Domain.Entities;
+using DDD_02.Domain.Features.Training;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace DDD_02.Application.Features.Training
 {
-   
-    public class CourseManagementService
+
+    public class CourseManagementService : ICourseManagementService
     {
         private readonly IApplicationUnitOfWork _unitOfWork;
 

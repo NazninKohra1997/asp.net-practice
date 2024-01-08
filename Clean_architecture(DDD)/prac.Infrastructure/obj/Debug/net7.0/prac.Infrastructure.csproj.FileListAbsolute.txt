@@ -1,0 +1,15 @@
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\bin\Debug\net7.0\prac.Infrastructure.deps.json
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\bin\Debug\net7.0\prac.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\bin\Debug\net7.0\prac.Infrastructure.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\prac.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\prac.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\prac.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\prac.Infrastructure.AssemblyInfo.cs
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\prac.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\prac.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\refint\prac.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\prac.Infrastructure.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\ref\prac.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\bin\Debug\net7.0\prac.Domain.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\bin\Debug\net7.0\prac.Domain.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\prac.Infrastructure.csproj.CopyComplete
