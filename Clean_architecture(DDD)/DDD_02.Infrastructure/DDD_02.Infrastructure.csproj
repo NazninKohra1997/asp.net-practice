@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DDD_02.Application\DDD_02.Application.csproj" />
     <ProjectReference Include="..\DDD_02.Domain\DDD_02.Domain.csproj" />
+    <PackageReference Include="Autofac" Version="7.1.0" />
 	  <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.14" />
 	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.14" />
 	  <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.14" />

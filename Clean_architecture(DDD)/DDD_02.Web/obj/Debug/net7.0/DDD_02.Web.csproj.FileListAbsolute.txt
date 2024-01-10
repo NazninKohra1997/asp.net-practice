@@ -268,3 +268,5 @@ C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\DDD_02.Infrastructure.dll
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\DDD_02.Infrastructure.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\Autofac.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Web\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll

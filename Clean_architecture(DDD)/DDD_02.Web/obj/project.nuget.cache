@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MLHSV4tUzNpDhx4SYhVPvZ+Dw08LQSvTiFA5HXkstJmvZyMd8bQGHOQrG6DDAVedi08UUGh+fwV8VmwfY5/3Rw==",
+  "dgSpecHash": "HUeHT0s/HgkcM4fLPlKI1P/Nl8nyDh+CZJKMlLxVnp1mOSKFMjjCX5IENWwWb+Jp0Urt3s5TU3iEWEKoxbyQmg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jhora\\Desktop\\My_codes\\asp.net-practice\\Clean_architecture(DDD)\\DDD_02.Web\\DDD_02.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jhora\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
+    "C:\\Users\\Jhora\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Jhora\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Jhora\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Jhora\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

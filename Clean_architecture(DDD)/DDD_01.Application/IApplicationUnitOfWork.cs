@@ -10,6 +10,6 @@ namespace DDD_01.Application
 {
     public interface IApplicationUnitOfWork : IUnitOfWork
     {
-        ICourseRepository CourseRepository { get; set; } 
+        ICourseRepository CourseRepository { get; } 
     }
 }

@@ -16,7 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DDD_01.Application\DDD_01.Application.csproj" />
     <ProjectReference Include="..\DDD_01.Domain\DDD_01.Domain.csproj" />
+    <ProjectReference Include="..\prac.Application\prac.Application.csproj" />
   </ItemGroup>
 
 </Project>

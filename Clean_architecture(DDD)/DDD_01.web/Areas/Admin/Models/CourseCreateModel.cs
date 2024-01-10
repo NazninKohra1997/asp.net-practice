@@ -10,10 +10,7 @@ namespace DDD_01.web.Areas.Admin.Models
             _courseManagementService = courseManagementService;
         }
 
-        public CourseCreateModel()
-        {
-
-        }
+        
         public string Title { get; set; }
         public string Description { get; set; }
         public uint Fees { get; set; }

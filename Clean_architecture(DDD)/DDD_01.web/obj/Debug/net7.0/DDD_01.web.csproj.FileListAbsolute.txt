@@ -268,3 +268,9 @@ C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\Autofac.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\prac.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\prac.Domain.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\prac.Application.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.web\bin\Debug\net7.0\prac.Domain.pdb

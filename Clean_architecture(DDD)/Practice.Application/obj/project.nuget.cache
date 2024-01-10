@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "b3cf4AB4/DG/JQCX+MeOVekku05b5R3bCagazo0PNJuh6Gqi9Yf2vgJR5xZjD/1LzT50WPtUMi5No7wzXtKQBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jhora\\Desktop\\My_codes\\asp.net-practice\\Clean_architecture(DDD)\\Practice.Application\\Practice.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jhora\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
+    "C:\\Users\\Jhora\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,4 +1,5 @@
-﻿using DDD_01.web.Areas.Admin.Models;
+﻿using Autofac;
+using DDD_01.web.Areas.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DDD_01.web.Areas.Admin.Controllers
@@ -6,6 +7,13 @@ namespace DDD_01.web.Areas.Admin.Controllers
     [Area("Admin")]
     public class CourseController : Controller
     {
+        private readonly ILifetimeScope _scope;
+        private readonly ILogger<CourseController> _logger;
+        public CourseController(ILifetimeScope scope, ILogger<CourseController> logger)
+        {
+            _scope = scope;
+            _logger = logger;
+        }
         public IActionResult Index()
         {
             return View();
@@ -14,12 +22,12 @@ namespace DDD_01.web.Areas.Admin.Controllers
        
         public IActionResult Create()
         {
-            var model = new CourseCreateModel();
+            var model = _scope.Resolve<CourseCreateModel>();
             return View();
         }
 
         [HttpPost, ValidateAntiForgeryToken]
-        public IActionResult Create(CourseCreateModel model)
+        public IActionResult Create([FromServices]CourseCreateModel model)
         {
             if (ModelState.IsValid)
             {

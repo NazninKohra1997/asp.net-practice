@@ -13,3 +13,5 @@ C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.In
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\bin\Debug\net7.0\prac.Domain.dll
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\bin\Debug\net7.0\prac.Domain.pdb
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\obj\Debug\net7.0\prac.Infrastructure.csproj.CopyComplete
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\bin\Debug\net7.0\prac.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\prac.Infrastructure\bin\Debug\net7.0\prac.Application.pdb

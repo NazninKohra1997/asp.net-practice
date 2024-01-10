@@ -13,3 +13,5 @@ C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Infrastructure\obj\Debug\net7.0\refint\DDD_02.Infrastructure.dll
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Infrastructure\obj\Debug\net7.0\DDD_02.Infrastructure.pdb
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Infrastructure\obj\Debug\net7.0\ref\DDD_02.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Infrastructure\bin\Debug\net7.0\DDD_02.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_02.Infrastructure\bin\Debug\net7.0\DDD_02.Application.pdb

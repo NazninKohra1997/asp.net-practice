@@ -1,0 +1,15 @@
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\bin\Debug\net7.0\Practice.Application.deps.json
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\bin\Debug\net7.0\Practice.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\bin\Debug\net7.0\Practice.Application.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\obj\Debug\net7.0\Practice.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\obj\Debug\net7.0\Practice.Application.AssemblyInfoInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\obj\Debug\net7.0\Practice.Application.AssemblyInfo.cs
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\obj\Debug\net7.0\Practice.Application.csproj.CoreCompileInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\obj\Debug\net7.0\Practice.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\obj\Debug\net7.0\refint\Practice.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\obj\Debug\net7.0\Practice.Application.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\obj\Debug\net7.0\ref\Practice.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\bin\Debug\net7.0\Practice.Domain.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\bin\Debug\net7.0\Practice.Domain.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\obj\Debug\net7.0\Practice.Application.csproj.AssemblyReference.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Practice.Application\obj\Debug\net7.0\Practice.Application.csproj.CopyComplete

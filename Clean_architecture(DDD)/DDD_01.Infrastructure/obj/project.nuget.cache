@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gjYKuQwekil5R7ghrVK2RxytX9YDoOI9V7dKpwttExobEGnHgi7cWhaHSR8ZD+aIZ1iuHeaYLoyCGtn3DBKbGg==",
+  "dgSpecHash": "bLl96guM5gWTE4BpeEMuT4KHLhF4E4WGYxhmw/Vd1SQfms9KsTM7CToJQaG2laWXnUOZgKEpgIVyfn5ltcmKhQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jhora\\Desktop\\My_codes\\asp.net-practice\\Clean_architecture(DDD)\\DDD_01.Infrastructure\\DDD_01.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jhora\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
+    "C:\\Users\\Jhora\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Jhora\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Jhora\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Jhora\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.14\\microsoft.aspnetcore.cryptography.internal.7.0.14.nupkg.sha512",

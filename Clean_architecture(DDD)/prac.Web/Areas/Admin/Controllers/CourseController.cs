@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Autofac;
+using Microsoft.AspNetCore.Mvc;
 using prac.Web.Areas.Admin.Models;
 
 namespace prac.Web.Areas.Admin.Controllers
@@ -6,14 +7,24 @@ namespace prac.Web.Areas.Admin.Controllers
     [Area("Admin")]
     public class CourseController : Controller
     {
-        public IActionResult Index()
+
+		private readonly ILifetimeScope _scope;
+		private readonly ILogger _logger;
+
+        public CourseController(ILifetimeScope scope, ILogger<CourseController> logger)
+		{
+			_scope = scope;
+			_logger = logger;
+		}
+
+		public IActionResult Index()
         {
-            var model = new CourseCreateModel();
+            var model = _scope.Resolve<CourseCreateModel>();
             return View();
         }
 
         [HttpPost,ValidateAntiForgeryToken]
-        public IActionResult Create(CourseCreateModel model)
+        public IActionResult Create([FromServices]CourseCreateModel model)
         {
             if (!ModelState.IsValid)
             {
