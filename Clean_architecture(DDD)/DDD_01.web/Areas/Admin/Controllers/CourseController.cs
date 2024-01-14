@@ -23,7 +23,7 @@ namespace DDD_01.web.Areas.Admin.Controllers
         public IActionResult Create()
         {
             var model = _scope.Resolve<CourseCreateModel>();
-            return View();
+            return View(model);
         }
 
         [HttpPost, ValidateAntiForgeryToken]

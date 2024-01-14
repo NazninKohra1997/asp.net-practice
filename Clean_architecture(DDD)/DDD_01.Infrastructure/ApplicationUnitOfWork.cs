@@ -15,7 +15,7 @@ namespace DDD_01.Infrastructure
 	{
 
 		public ICourseRepository CourseRepository { get; private set; }
-		public ApplicationUnitOfWork(DbContext dbContext) : base(dbContext)
+		public ApplicationUnitOfWork(ApplicationDbContext dbContext) : base(dbContext)
 		{
 			CourseRepository = new CourseRepository(dbContext);
 		}

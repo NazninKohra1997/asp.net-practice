@@ -13,7 +13,7 @@ namespace prac.Application
 	{
 		protected override void Load(ContainerBuilder builder)
 		{
-			builder.RegisterType<CourseManagementService>().As<ICourseManagementService>().InstancePerMatchingLifetimeScope();
+			builder.RegisterType<CourseManagementService>().As<ICourseManagementService>().InstancePerLifetimeScope();
 		}
 	}
 }

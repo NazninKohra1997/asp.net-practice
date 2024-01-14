@@ -18,9 +18,14 @@ namespace prac.Web.Areas.Admin.Controllers
 		}
 
 		public IActionResult Index()
+		{
+			return View();
+		}
+
+		public IActionResult Create()
         {
             var model = _scope.Resolve<CourseCreateModel>();
-            return View();
+            return View(model);
         }
 
         [HttpPost,ValidateAntiForgeryToken]
@@ -31,7 +36,7 @@ namespace prac.Web.Areas.Admin.Controllers
                 model.CreateCourse();
                 return RedirectToAction("Index");
             }
-            return View();
+            return View(model);
         }
     }
 }

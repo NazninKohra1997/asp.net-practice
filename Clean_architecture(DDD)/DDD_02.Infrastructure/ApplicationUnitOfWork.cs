@@ -12,7 +12,7 @@ namespace DDD_02.Infrastructure
 {
 	public class ApplicationUnitOfWork : UnitOfWork, IApplicationUnitOfWork
 	{
-		public ApplicationUnitOfWork(DbContext dbContext) : base(dbContext)
+		public ApplicationUnitOfWork(ApplicationDbContext dbContext) : base(dbContext)
 		{
 			CourseRepository = new CourseRepository(dbContext);
 		}

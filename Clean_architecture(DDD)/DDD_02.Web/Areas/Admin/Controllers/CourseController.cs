@@ -1,9 +1,11 @@
 ﻿using Autofac;
+using DDD_02.Domain.Features.Training;
 using DDD_02.Web.Areas.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DDD_02.Web.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CourseController : Controller
     {
 
@@ -16,15 +18,25 @@ namespace DDD_02.Web.Areas.Admin.Controllers
             _logger = logger;
         }
 
-        [Area("Admin")]
+       
+
+
         public IActionResult Index()
         {
+            return View();
+        }
+
+
+       
+        public IActionResult Create()
+        {
+            
             var model = _scope.Resolve<CourseCreateModel>();
             return View(model);
         }
 
 
-        [HttpPost,ValidateAntiForgeryToken]
+        [HttpPost, ValidateAntiForgeryToken]
         public IActionResult Create([FromServices]CourseCreateModel model)
         {
             if(ModelState.IsValid)
