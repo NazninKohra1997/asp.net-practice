@@ -1,0 +1,43 @@
+﻿@using Library.Web.Areas.Admin.Models;
+@model BookModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+
+<div class="col-md-12">
+    <div class="card card-primary">
+        <partial name="_ResponsePartial" />
+        <div class="card-header">
+            <h3 class="card-title">Create New Course</h3>
+        </div>
+
+
+
+
+        <form asp-action="Create" asp-controller="Book" asp-area="Admin" asp-antiforgery="true">
+
+            <div class="card-body">
+                <div class="form-group">
+                    <label asp-for="Title">Title</label>
+                    <input type="text" class="form-control" asp-for="Title" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="AuthorName">AuthorName</label>
+                    <input type="text" class="form-control" asp-for="AuthorName" />
+                </div>
+
+               
+            </div>
+
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+

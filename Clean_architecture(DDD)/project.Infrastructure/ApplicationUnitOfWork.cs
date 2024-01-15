@@ -9,11 +9,12 @@ using System.Text;
 using System.Threading.Tasks;
 using project.Application;
 
+
 namespace project.Infrastructure
 {
     public class ApplicationUnitOfWork : UnitOfWork, IApplicationUnitOfWork
     {
-        public ApplicationUnitOfWork(DbContext dbContext) : base(dbContext)
+        public ApplicationUnitOfWork(ApplicationDbContext dbContext) : base(dbContext)
         {
             CourseRepository = new CourseRepository(dbContext);
         }
