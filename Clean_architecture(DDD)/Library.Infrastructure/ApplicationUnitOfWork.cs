@@ -13,7 +13,7 @@ namespace Library.Infrastructure
 	internal class ApplicationUnitOfWork : UnitOfWork, IApplicationUnitOfWork
 	{
 		public IBookRepository BookRepository { get; private set; }
-		public ApplicationUnitOfWork(DbContext dbContext) : base(dbContext)
+		public ApplicationUnitOfWork(ApplicationDbContext dbContext) : base(dbContext)
 		{
 		}
 

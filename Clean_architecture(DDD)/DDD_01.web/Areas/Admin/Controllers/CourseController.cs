@@ -31,6 +31,7 @@ namespace DDD_01.web.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+                model.Resolve(_scope);
                 model.CreateCourse();
                 return RedirectToAction("Index"); 
             }
