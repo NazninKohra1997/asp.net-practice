@@ -1,6 +1,4 @@
-﻿
-
-using Autofac;
+﻿using Autofac;
 using Library.Application.Features.Publish;
 using Library.Domain.Features.Publish;
 

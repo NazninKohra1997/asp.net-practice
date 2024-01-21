@@ -1,0 +1,17 @@
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\bin\Debug\net7.0\Course.Infrastructure.deps.json
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\bin\Debug\net7.0\Course.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\bin\Debug\net7.0\Course.Infrastructure.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\bin\Debug\net7.0\Course.Domain.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\bin\Debug\net7.0\Course.Domain.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\obj\Debug\net7.0\Course.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\obj\Debug\net7.0\Course.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\obj\Debug\net7.0\Course.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\obj\Debug\net7.0\Course.Infrastructure.AssemblyInfo.cs
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\obj\Debug\net7.0\Course.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\obj\Debug\net7.0\Course.Infrastructure.csproj.CopyComplete
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\obj\Debug\net7.0\Course.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\obj\Debug\net7.0\refint\Course.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\obj\Debug\net7.0\Course.Infrastructure.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\obj\Debug\net7.0\ref\Course.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\bin\Debug\net7.0\Course.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Course.Infrastructure\bin\Debug\net7.0\Course.Application.pdb

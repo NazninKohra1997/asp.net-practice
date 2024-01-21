@@ -23,6 +23,7 @@ namespace project.Web.Areas.Admin.Controllers
         public IActionResult Create()
         {
             var model = _scope.Resolve<CourseCreateModel>();
+			
             return View(model);
         }
 

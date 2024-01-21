@@ -19,7 +19,6 @@ builder.Host.ConfigureContainer<ContainerBuilder>(ContainerBuilder =>
 	ContainerBuilder.RegisterModule(new WebModule());
 	ContainerBuilder.RegisterModule(new InfrastructureModule(connectionString,migrationAssembly));
 	ContainerBuilder.RegisterModule(new ApplicationModule());
-
 });
 
 // Add services to the container.
