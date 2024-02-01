@@ -1,0 +1,17 @@
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\bin\Debug\net7.0\Demo.Application.deps.json
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\bin\Debug\net7.0\Demo.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\bin\Debug\net7.0\Demo.Application.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\obj\Debug\net7.0\Demo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\obj\Debug\net7.0\Demo.Application.AssemblyInfoInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\obj\Debug\net7.0\Demo.Application.AssemblyInfo.cs
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\obj\Debug\net7.0\Demo.Application.csproj.CoreCompileInputs.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\obj\Debug\net7.0\Demo.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\obj\Debug\net7.0\refint\Demo.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\obj\Debug\net7.0\Demo.Application.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\obj\Debug\net7.0\ref\Demo.Application.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\bin\Debug\net7.0\Demo.Domain.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\bin\Debug\net7.0\Demo.Infrastructure.dll
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\bin\Debug\net7.0\Demo.Domain.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\bin\Debug\net7.0\Demo.Infrastructure.pdb
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\obj\Debug\net7.0\Demo.Application.csproj.AssemblyReference.cache
+C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\Demo.Application\obj\Debug\net7.0\Demo.Application.csproj.CopyComplete
