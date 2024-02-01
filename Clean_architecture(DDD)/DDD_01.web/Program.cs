@@ -19,9 +19,10 @@ var migrationAssembly = Assembly.GetExecutingAssembly().FullName;
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(ContainerBuilder =>
 {
-    ContainerBuilder.RegisterModule(new WebModule());
+    
     ContainerBuilder.RegisterModule(new ApplicationModule());
     ContainerBuilder.RegisterModule(new InfrastructureModule(connectionString,migrationAssembly));
+    ContainerBuilder.RegisterModule(new WebModule());
 });
 
 // Add services to the container.

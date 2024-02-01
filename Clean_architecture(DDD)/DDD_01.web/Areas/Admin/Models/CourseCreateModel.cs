@@ -8,18 +8,22 @@ namespace DDD_01.web.Areas.Admin.Models
         private ILifetimeScope _scope;
         
         private ICourseManagementService _courseManagementService;
-
-        public CourseCreateModel(ICourseManagementService courseManagementService) {
-            _courseManagementService = courseManagementService;
-        }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public uint Fees { get; set; }
 
         public CourseCreateModel()
         {
 
         }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public uint Fees { get; set; }
+
+        public CourseCreateModel(ICourseManagementService courseManagementService) {
+            _courseManagementService = courseManagementService;
+           
+        }
+
+       
+       
 
         internal void Resolve(ILifetimeScope scope)
         {

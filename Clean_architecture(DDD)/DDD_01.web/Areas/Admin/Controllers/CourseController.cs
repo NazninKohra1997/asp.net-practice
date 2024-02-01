@@ -27,7 +27,7 @@ namespace DDD_01.web.Areas.Admin.Controllers
         }
 
         [HttpPost, ValidateAntiForgeryToken]
-        public IActionResult Create([FromServices]CourseCreateModel model)
+        public IActionResult Create(CourseCreateModel model)
         {
             if (ModelState.IsValid)
             {

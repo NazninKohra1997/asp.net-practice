@@ -14,8 +14,4 @@ C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.Infrastructure\obj\Debug\net7.0\DDD_01.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.Infrastructure\obj\Debug\net7.0\DDD_01.Infrastructure.csproj.CopyComplete
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.Infrastructure\bin\Debug\net7.0\DDD_01.Application.dll
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.Infrastructure\bin\Debug\net7.0\prac.Application.dll
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.Infrastructure\bin\Debug\net7.0\prac.Domain.dll
 C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.Infrastructure\bin\Debug\net7.0\DDD_01.Application.pdb
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.Infrastructure\bin\Debug\net7.0\prac.Application.pdb
-C:\Users\Jhora\Desktop\My_codes\asp.net-practice\Clean_architecture(DDD)\DDD_01.Infrastructure\bin\Debug\net7.0\prac.Domain.pdb
